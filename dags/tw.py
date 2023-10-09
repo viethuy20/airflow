@@ -7,7 +7,7 @@ default_args={
     "retry_delay" : timedelta(minutes=2)
 }
 with DAG(
-    dag_id = "first1_dag",
+    dag_id = "second_dag",
     default_args = default_args,
     description="this is our first dag",
     start_date=datetime(2023,9,19,2),
