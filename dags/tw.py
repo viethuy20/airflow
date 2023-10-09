@@ -14,7 +14,7 @@ with DAG(
     schedule_interval="@daily"
  ) as dag:
     task1 = BashOperator(
-        task_id = "first1_task",
+        task_id = "second_task",
         bash_command="echo hello work, this is first time"
     )
     task1
